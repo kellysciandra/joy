@@ -11,11 +11,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        I am the god Joy 
+        coming soon ...
         </h1>
 
         <p className={styles.description}>
-         I have 2 dog Richard and I like boobie
+      
         </p>
 
 
@@ -23,8 +23,7 @@ export default function Home() {
 
       <footer>
 
-          <img src="/big.jpg" alt="Vercel Logo" className={styles.logo} />
-          <img src="/small.jpg" alt="Vercel Logo" className={styles.logo2} />
+        
     
       </footer>
     </div>
