@@ -6,12 +6,7 @@ import Home from '../pages/home';
 const Layout = ({ children }) => (
     <>
       <Head>
-        <title>Nancy's Inventory</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=IBM+Plex+Mono&display=swap" rel="stylesheet"/>
-        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"></link>
-        <script src="https://kit.fontawesome.com/dcfabf23b2.js" crossOrigin="anonymous"></script>
+        <title>Joyyounan</title>
       </Head>
       <Navbar />
       <Home/>
