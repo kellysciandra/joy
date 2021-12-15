@@ -1,0 +1,23 @@
+import Head from 'next/head';
+import Navbar from './Navbar';
+import styles from '../styles/Home.module.css'
+
+const Layout = ({ children }) => (
+    <>
+      <Head>
+        <title>Nancy's Inventory</title>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=IBM+Plex+Mono&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"></link>
+        <script src="https://kit.fontawesome.com/dcfabf23b2.js" crossOrigin="anonymous"></script>
+      </Head>
+      <Navbar />
+      {children}
+      <footer className={styles.footer}>
+
+      </footer>
+    </>
+)
+
+export default Layout;

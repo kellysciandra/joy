@@ -9,23 +9,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-        coming soon ...
-        </h1>
-
-        <p className={styles.description}>
-      
-        </p>
-
-
-      </main>
-
-      <footer>
-
-        
-    
-      </footer>
     </div>
   )
 }
