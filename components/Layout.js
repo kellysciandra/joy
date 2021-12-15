@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from './Navbar';
 import styles from '../styles/Home.module.css'
+import Home from '../pages/home';
 
 const Layout = ({ children }) => (
     <>
@@ -13,6 +14,7 @@ const Layout = ({ children }) => (
         <script src="https://kit.fontawesome.com/dcfabf23b2.js" crossOrigin="anonymous"></script>
       </Head>
       <Navbar />
+      <Home/>
       {children}
       <footer className={styles.footer}>
 

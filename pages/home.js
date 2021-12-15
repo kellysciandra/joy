@@ -5,8 +5,6 @@ const Home = () => {
     return <>
  
         <HomeContainer>
-      
-           
             <BoxWrap> 
             <HomeText>joy younan</HomeText>
             <HomeText2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
@@ -46,6 +44,7 @@ const Home = () => {
 
             </WorkText>
         </WorkContainer>
+        <WorkContainer style={{display: "none"}}></WorkContainer>
         <InfoContainer>
             <InfoText id="contact">
                 Email 

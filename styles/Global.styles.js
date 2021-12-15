@@ -76,7 +76,7 @@ const WorkContainer = styled.div`
     display: flex;
     justify-content: center;
     background-color: rgb(255, 232, 237);
-
+    
     @media only screen and (max-width: 600px) {
 
     width: 180%;
